@@ -1,0 +1,6 @@
+### Open windows powerShell as administrator
+npm install -g typescript ts-node
+
+Add this folder to environment variable
+C:\Users\gulam\AppData\Roaming\npm
+
