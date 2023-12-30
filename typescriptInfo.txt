@@ -1,6 +1,21 @@
 ### Open windows powerShell as administrator
+  
 npm install -g typescript ts-node
 
 Add this folder to environment variable
 C:\Users\gulam\AppData\Roaming\npm
 
+tsc --version
+
+tsc index.ts
+node index.js
+
+As we have installed ts-node so we can typescript directly without compiling it into js first
+ts-node app.ts
+
+
+### Running React Code
+npx create-react-app <MY-TYPESCRIPT-APP-NAME> --template typescript
+cd <MY-TYPESCRIPT-APP-NAME>
+
+npm start

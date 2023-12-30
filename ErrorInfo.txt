@@ -6,11 +6,12 @@ At line:1 char:1 + tsc -v + ~~~ + CategoryInfo : SecurityError: (:) [], PSSecuri
 FullyQualifiedErrorId : UnauthorizedAccess
 
 RESOLVE
-   To check the current script execution policy, run
+   To check the current script execution policy, OPEN POWER SHELL as ADMINISTRATOR
    Get-ExecutionPolicy
    got "Restricted"
    then run
    Set-ExecutionPolicy RemoteSigned
+   click yes
 
 
 
