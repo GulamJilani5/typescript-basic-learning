@@ -1,0 +1,19 @@
+(1) After running tsc --version we get error 
+
+tsc : File C:\Users\gulam\AppData\Roaming\npm\tsc.ps1 cannot be loaded because running scripts is disabled on 
+this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170. 
+At line:1 char:1 + tsc -v + ~~~ + CategoryInfo : SecurityError: (:) [], PSSecurityException + 
+FullyQualifiedErrorId : UnauthorizedAccess
+
+RESOLVE
+   To check the current script execution policy, OPEN POWER SHELL as ADMINISTRATOR
+   Get-ExecutionPolicy
+   got "Restricted"
+   then run
+   Set-ExecutionPolicy RemoteSigned
+   click yes
+
+
+
+
+
