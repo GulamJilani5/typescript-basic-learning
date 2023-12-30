@@ -14,3 +14,12 @@ As we have installed ts-node so we can typescript directly without compiling it 
 ts-node app.ts
 
 
+### Running React Code
+npx create-react-app <MY-TYPESCRIPT-APP-NAME> --template typescript
+cd <MY-TYPESCRIPT-APP-NAME>
+
+npm start
+
+
+
+
